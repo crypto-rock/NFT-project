@@ -1,0 +1,223 @@
+import React from 'react';
+import {Link} from "react-router-dom";  
+import  './index.scss';
+import  './icicb.scss'; 
+import logo from './assets/logo.png';
+import img1 from './assets/1.png'; 
+import img2 from './assets/2.png'; 
+import img3 from './assets/3.png'; 
+import img4 from './assets/4.png'; 
+import img5 from './assets/5.png'; 
+import img6 from './assets/6.png'; 
+import img7 from './assets/7.png'; 
+import img8 from './assets/8.png'; 
+import img9 from './assets/9.png'; 
+import img10 from './assets/10.png'; 
+import img11 from './assets/11.png'; 
+import img12 from './assets/12.png'; 
+import img13 from './assets/13.png'; 
+import img14 from './assets/14.png'; 
+import left from './assets/arrow-black.png'; 
+import right from './assets/right-arrow.png'; 
+const Home = () => { 
+	return  <div> 
+                <div className="wrapper">
+                    <header>
+                        <div className="container">
+                            <div className="row"> 
+                                <Link className="logo" to="#"><img src={logo} alt="ICICB Logo" className="img-fluid" />
+                                </Link>  
+                                <nav className="navbar  navbar-expand-md ml-auto"> 
+                                    {/* <a href="#" className="btn-fill text-uppercase ml3">Presale portal</a> */}
+                                    
+                                </nav>
+                            </div>
+                        </div>
+                    </header> 
+                    <section className="heroSection" style={{backgroundImage: img9}}>
+                        <div className="container">
+                            <div className="row align-items-center">
+                                <div className="col-12">
+                                    <h1 className="text-center" style={{fontSize:'3em'}}>Coming Soon</h1>
+                                </div>
+                                <div className="col-xl-6 col-12"> 
+                                    <h2>
+                                        ICICB Introducing the versatile
+                                        <br/>
+                                        <span className="italic hcolor">blockchain</span>
+                                        in the world.
+                                    </h2>
+                                    <p className="pcolor">
+                                        ICICB is a secure, fast, and highly scalable blockchain that is the foundation for the emerging industries of Artificial Intelligence, Blockchain and Metaverse.
+                                    </p>
+                                    <a href="#" className="btn-outline text-uppercase text-center">Presale</a>
+                                </div>
+                                <div className="col-xl-6 col-12">
+                                    <div className="imgCol">
+                                        <img src={img8} alt="herosection img" className="heroimg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> 
+                    <div className="second_sec" style={{backgroundImage: img2}}> 
+                        <section className="row">
+                            <div className="container">
+                                <div className="row align-items-center">
+                                    <div className="col-xl-6 col-12">
+                                        <div>
+                                            <p>ABOUT</p>
+                                            <h3>Get started with ICICB</h3>
+                                            <p style={{color:"#a6a6a6"}}>ICICB Chain.com is your portal into the Blockchain Gaming World, Highly scalability and Huge Ecosystem Designed for Gaming industry will be one of big part in Future Gaming Industry.</p>
+                                            <a href="#" className="link text-uppercase">learn more <img src={right} alt="image description" className="arrow" /></a>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-6 col-12">
+                                        <div className="imgCol">
+                                            <img src={img12} alt="image description" className="d-block" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section> 
+                        <section className="row">
+                            <div className="container">
+                                <div className="row align-items-center"> 
+                                    <div className="col-xl-6 col-12">
+                                        <div className="imgCol">
+                                            <img src={img10} style={{width: "80%"}} alt="image description" className="d-block" />
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-6 col-12">
+                                        <div className="textCol">
+                                            <h3>ICICB <span className="hcolor italic">Mobile App</span> </h3>
+                                            <p style={{color:"#a6a6a6"}}>Manage your digital assets on the move. </p>
+                                            <p style={{color:"#a6a6a6"}}>With the powerful features of the ICICB app, you can trade (buy and sell) on the go and keep a close eye on your investments. The app also combines convenience with security, allowing you to transfer your currency to others quickly and easily.</p>
+                                            <img src={img7} style={{width: "50%"}} />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section className="row pt5 pb5">
+                            <div className="container">
+                                <div className="row align-items-center">
+                                
+                                    <div className="col-xl-6 col-12">
+                                        <div className="textCol">
+                                            <h3>ICICB <span style={{fontStyle:"italic", color:"#a48b57"}}>Mobile App</span> </h3>
+                                            <p style={{color:"#a6a6a6"}}>Decentralized and independent of any government, ICICB is the fastest and highly scalable blockchain in the world with the fastest growing ecosystem in the crypto economy. A low-power proof-of-stake algorithm with Segwit and deterministic masternodes as part of their proprietary protocol.
+                                            </p>  
+                                            <Link className="link text-uppercase" to="#">learn more<img src={right} alt="image description" className="arrow" />
+                                           </Link>  
+                                        </div>
+                                    </div> 
+                                    <div className="col-xl-6 col-12">
+                                        <div className="imgCol">
+                                            <img src={img6} style={{width: "80%"}} alt="image description" className="d-block" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div className="download_section" style={{backgroundImage: img3}}>
+                        <h3>ICICB <span className="hcolor italic">Mobile App</span> </h3>
+                        <p style={{color:"#a6a6a6"}}>Download</p>
+                        <img src={img7} alt="image description" className="d-block" /> 
+                    </div>
+                    <div className="third-sec" style={{backgroundImage: img4}}>
+                        <div className="aim_div">
+                            <img src={img13} className="mt4" />
+                            <p className="pcholor">Our aim is to eliminate the need for other mobile crypto apps and spread-out projects with our integrated amazing features: 
+                            </p>
+                            <img src={img11} alt="image description" className="d-block" />
+                        </div>
+                        <section className="features">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-12">
+                                        <h3 className="text-center">Why ICICB</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="">
+                                <div className="container">
+                                    <div className="row ">
+                                        <div className="col-lg-3 col-12">
+                                            <div className="box" style={{backgroundImage: img4}}>
+                                                <span className="title d-block">Low cost, forever:</span>
+                                                <p>ICICB's scalability ensures that transactions cost developers and users less than one-sixth of a dollar. No hidden costs or unwanted delays.</p>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-3 col-12">
+                                            <div className="box" style={{backgroundImage: img4}}>
+                                                <span className="title d-block">Faster than ever before:</span>
+                                                <p>ICICB is all about speed. With 30,000 TPS and a final block confirmation time of less than 2 seconds, you will not miss a thing.</p>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-3 col-12">
+                                            <div className="box" style={{backgroundImage: img4}}>
+                                                <span className="title d-block">Decentralized and unstoppable:</span>
+                                                <p>ICICB is also censorship resistant. This means that the network remains open to applications and transactions are never stopped.</p>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-3 col-12">
+                                            <div className="box" style={{backgroundImage: img4}}>
+                                                <span className="title d-block">Scale for global adoption:</span>
+                                                <p>ICICB ensures compatibility between ecosystem projects through its unique combination of low-power POS algorithm, Segwit and deterministic masternode.
+                                                </p>
+                                            </div>
+                                        </div>
+            
+                                        <div className="col-lg-3 col-12">
+                                            <div className="box" style={{backgroundImage: img4}}>
+                                                <span className="title d-block">Lightning-fast like transfers:</span>
+                                                <p>Transactions on ICICB are processed within a human breath and cost a fraction of a cent without compromising security.</p>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-3 col-12">
+                                            <div className="box" style={{backgroundImage: img4}}>
+                                                <span className="title d-block">Making security our priority:</span>
+                                                <p>ICICB's validation nodes form a global, trustless, leaderless proof-of-stake network. We promise your assets are safe with us.</p>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-3 col-12">
+                                            <div className="box" style={{backgroundImage: img4}}>
+                                                <span className="title d-block">Solving scalability problem:</span>
+                                                <p>ICICB can process thousands of transactions per second and scale to thousands of nodes. One blockchain, ready for anything.</p>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-3 col-12">
+                                            <div className="box" style={{backgroundImage: img4}}>
+                                                <span className="title d-block">Ready to embrace the future:</span>
+                                                <p>Integrated governance systems make ICICB adaptable and allow it to evolve as stakeholders see fit, resist spin-offs, and integrate new technologies.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>
+                        </section>
+                        <section className="newsletter">
+                            <div className="holder text-center">
+                                <h3 className="hcolor">ICICB newsletter</h3>
+                                <p>Stay updated on the latest ICICB news</p>
+                                <input type="email" placeholder="Enter Your email" className="form-field" />
+                                <button className="btn-fill text-uppercase pl3 pr3">sign up <img src={left} alt="image description"/></button>
+                            </div>
+                        </section>
+                        <div className="footer_section">
+                            <a href="https://www.icicbchain.com/pdf/cookie_policy.pdf" target="_blank">Cookie Policy</a>
+                            <a href="https://www.icicbchain.com/pdf/cft_policy.pdf" target="_blank">CFT Policy</a>
+                            <a href="https://www.icicbchain.com/pdf/privacy_policy.pdf" target="_blank">Privacy Policy</a>
+                            <a href="https://www.icicbchain.com/pdf/terms_of_use.pdf" target="_blank">Terms of Use</a>
+                            <a href="https://www.icicbchain.com/pdf/regulatory_oversight.pdf" target="_blank">Regulatory Oversight</a>
+                        </div>
+
+                    </div>
+                </div>
+         </div>
+};
+
+export default Home;

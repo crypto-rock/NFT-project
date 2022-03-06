@@ -1,0 +1,212 @@
+@-webkit-viewport {
+    width: device-width
+}
+
+@-moz-viewport {
+    width: device-width
+}
+
+@-ms-viewport {
+    width: device-width
+}
+
+@-o-viewport {
+    width: device-width
+}
+
+@viewport {
+    width: device-width
+}
+
+body{
+    color:rgba(166, 166,166,1)!important;
+    background-color: #090702!important;
+    min-width: 320px!important;
+    font-size: 14px!important;
+    font-weight: 300;  
+    tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+    -o-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent
+}
+
+.wrapper{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+header{
+    background-color: #080602;
+    position: relative;
+    overflow: hidden; 
+    z-index: 99;
+    padding:25px 20px; 
+}
+.logo{
+    display: inline-block;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    flex-flow:nowrap;
+    justify-content: flex-start;
+}
+.ml-auto{
+    margin-left: auto!important;
+}
+.navbar-expand-md{
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+.btn-fill{
+    color:#0e0a04;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #ac8b4f;
+    border-radius: 22px;
+    padding: 10px 15px;
+    border: 2px solid #ac8b4f;
+    transition: all 0.2s;
+}
+
+.btn-fill:hover{
+	color:#ac8b4f;
+	background:none;
+}
+.btn-outline{
+    height: 52px;
+    width: 282px;
+    color: #b39559;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 28px;
+    line-height: 48px;
+    display: inline-block;
+    border: 2px solid #b39559;
+    transition: all 0.2s;
+}
+.btn-outline:hover{
+	color:#0e0a04;
+	background:#b39559;
+}
+.text-uppercase{
+    text-transform: uppercase!important;
+}
+
+.heroSection{
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.imgCol{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+.heroSection img{
+    width: 250px!important;
+    height: auto;
+}
+.align-items-center{
+    align-items: center;
+}
+.pcolor{
+    color:#a6a6a6;
+}
+.hcolor{
+    color:#a48b57;
+}
+.italic{
+    font-style: italic;
+}
+
+.second_sec{
+    
+    background-size: cover;
+}  
+.link{
+    color: #b39559;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.imgCol img {
+    position: relative;
+    width: 80%;
+    z-index: 9;
+}
+.download_section {
+    
+    background-size: cover;
+    padding: 45px;
+    text-align: center;
+}
+.download_section img {
+    width: 300px;
+    margin: auto;
+}
+.footer_section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer_section a {
+    color: rgba(255,255,255,0.76);
+    padding: 10px;
+    cursor: pointer;
+}
+.third-sec {
+    
+    background-size: cover;
+}
+.aim_div {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ac8c4f33;
+}
+.features {
+    overflow: hidden;
+    padding: 100px 0;
+    border-top: 1px solid #171309;
+}
+ .box {
+    color: #dadada; 
+    border-radius: 25px;
+    margin: 0 0 35px;
+    padding: 30px;
+    text-align: center;
+    background-size: 100% 100%;
+}
+.newsletter {
+    overflow: hidden;
+    padding: 110px 0 250px;
+    border-top: 1px solid #171309;
+}
+.newsletter .holder {
+    max-width: 527px;
+    margin: 0 auto;
+}
+
+.form-field {
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: #9fa4af;
+    background: none;
+    border: 2px solid #967d4a;
+    border-radius: 32px;
+    padding: 10px 40px;
+    margin: 0 0 22px;
+}
