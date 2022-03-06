@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "react",
+    "isolatedModules": true,
+    "noImplicitAny": false
+  },
+  "include": [
+    "./"
+  ],
+  "typeRoots": [
+    "./node_modules/@types",
+    "./@types"
+  ],
+  "extends": "expo/tsconfig.base"
+}
