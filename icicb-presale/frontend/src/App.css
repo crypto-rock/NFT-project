@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'bwmodel';
+    src: url('assets/font/BwModelicaSS01-Regular.otf');
+}
+
+.App {
+    text-align: center;
+}
+
+body {
+    background-image: url(assets/img/bg.png);
+    background-size: 100% 100vh;
+    background-color: black;
+    font-family: 'bwmodel';
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.Dropdown-control {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: default;
+    outline: none;
+    padding: 8px 52px 8px 10px;
+    transition: all 200ms ease;
+    width: 150px !important;
+}
+
+.Dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #3e3e3e;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.Dropdown-option.is-selected {
+    background-color: #523301;
+    color: white;
+}
+
+.Dropdown-option {
+    color: white
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* font styles */
+
+.x-font1 {
+    font-family: initial;
+    font-size: 25px;
+    color: white;
+}
+
+.x-font2-bold {
+    font-family: initial;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.x-font2 {
+    font-family: initial;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.x-font3 {
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+}
+
+.x-font4 {
+    font-family: initial;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.x-font5 {
+    font-family: initial;
+    font-size: 14px;
+    color: #f4bd22;
+}
+
+.x-font6 {
+    font-family: initial;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.x-font7 {
+    font-family: initial;
+    font-size: 20px;
+    color: #f4bd22;
+}
+
+.x-font8 {
+    font-family: initial;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+/* grid styles */
+
+.x-grid1 {
+    margin-left: 10%;
+    width: 30%;
+}
+
+.x-grid2 {
+    margin-left: 15%!important;
+    width: 70%!important;
+}
+
+.x-grid3 {
+    margin-top: 10%!important;
+    margin-bottom: 5%!important;
+    padding-left: 3%!important;
+    padding-right: 3%!important;
+}
+
+.x-grid4 {
+    padding-left: 15%!important;
+    padding-right: 15%!important;
+}
+
+.x-grid5 {
+    margin-left: 10%!important;
+    width: 80%!important;
+}
+
+.x-grid6 {
+    margin-left: 5%!important;
+    width: 90%!important;
+}
+
+.x-navContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px 10px 50px;
+    height: 70px;
+}
+
+.x-nav-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.x-nav-connect {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.x-image-center {
+    vertical-align: middle;
+}
+
+.x-logo {
+    margin-right: 80px;
+}
+
+.x-humburger-icon {
+    float: right;
+    color: white!important;
+    z-index: 4;
+}
+
+.x-navLink {
+    text-decoration: none!important;
+    font-family: initial;
+    font-size: 17px;
+    color: white;
+    margin-right: 25px;
+}
+
+.x-navLink:hover {
+    text-decoration: none!important;
+    font-family: initial;
+    font-size: 17px;
+    color: #999999;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.swap_middle {
+    display: flex;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.x-stakeCard-input {
+    width: 100%;
+    background-color: transparent;
+    border: none !important;
+    color: white;
+}
+
+.x-stakeCard-input:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.swapForm {
+    display: flex;
+}
+
+.padding-top {
+    padding-top: 40px
+}
+
+.swap-button {
+    height: 50px!important;
+    width: 300px!important;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(117, 101, 27);
+    border: none
+}
+
+.liquidity-button {
+    height: 50px!important;
+    width: 300px!important;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(227, 30, 45);
+    border: none;
+    margin-top: 20px
+}
+
+.toggle-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.toggle-buttons .swap {
+    width: 140px;
+    padding: 4px 0px;
+    color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 40%;
+}
+
+.toggle-buttons .liquidity {
+    width: 140px;
+    padding: 4px 0px;
+    color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 40%;
+    margin-left: 30px
+}
+
+.spacer {
+    height: 20px;
+    width: 100%;
+}
+
+.spacer-1 {
+    height: 40px;
+    width: 100%;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.x-defi-lp {
+    padding: 40px;
+}
+
+.x-defi-top-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Lp-balance-field {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    .x-navContainer {
+        display: block;
+        text-align: center;
+    }
+    .x-navContainer .x-nav-buttons {
+        margin-top: 20px
+    }
+    .x-grid2 {
+        margin-left: 0!important;
+        width: 100%!important;
+    }
+    .swap-button {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .liquidity-button {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .swap_middle {
+        display: block;
+    }
+    .swap_middle .text-left {
+        text-align: center !important;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .swap_middle .text-right {
+        text-align: center !important;
+        margin-bottom: 10px;
+        margin-right: 0 !important;
+    }
+    body {
+        background-size: cover;
+    }
+}
+
+.bridgeCard {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.bridge-dropdown div {
+    border-radius: 5px!important;
+}
+
+.AlertCard {
+    z-index: 10;
+    position: fixed;
+    top: 70px;
+    right: 50px;
+    padding: 20px;
+    background-color: rgba(119, 119, 119, 0.534);
+    color: white;
+    border-radius: 5px!important;
+    cursor: pointer;
+}
+
+.pendingCard {
+    padding: 30px!important;
+}
