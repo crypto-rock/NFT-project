@@ -1,0 +1,17 @@
+{
+    "lang" : "En",
+    "chain": "ICICB CHAIN",
+    "bridge": "ICICB Bridge",
+    "description": "The safe, fast and most secure way to bring cross-chain assets to ICICB chains.",
+    "wallet.connect": "Connect",
+
+    "chain.icicb": "ICICB network",
+    "chain.eth": "Ethereum network",
+    "chain.bsc": "Binance SmartChain",
+    "chain.trx": "Tron network",
+    "chain.ht": "HECO network",
+    
+    "token.native": "Native Token",
+
+    "end":""
+}

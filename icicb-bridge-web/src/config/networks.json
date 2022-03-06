@@ -1,0 +1,36 @@
+{
+    "ICICB": {
+        "bridge": "0x08432f408B93f2735Cb1772d33b7983D63B63db6",
+        "wicicb": "0x1E28399F47a5d36700D7AE23aac399e163f4CC0E",
+        "chainId": 26,
+        "coin": "ICICB",
+        "decimals": 18,
+        "confirmations": 1,
+        "blocktime": 1000,
+        "rpc": "http://185.64.104.43",
+        "explorer": "https://testnet-explorer.icicbchain.org",
+        "erc20": "IRC20"
+    },
+    "ETH": {
+        "bridge": "0x1AbbA4d5565305Af584D3a069e78690BC816B4fB",
+        "chainId": 4,
+        "coin": "ETH",
+        "decimals": 18,
+        "confirmations": 12,
+        "blocktime": 15000,
+        "rpc": "https://rinkeby.infura.io/v3/580d6de4d2694cbdbee111d2f553dbcc",
+        "explorer": "https://rinkeby.etherscan.io/",
+        "erc20": "ERC20"
+    },
+    "BSC": {
+        "bridge": "0x097a7f06191e8E34B0A7bBf4547DbAF66b3A7f80",
+        "chainId": 97,
+        "coin": "BNB",
+        "decimals": 18,
+        "confirmations": 12,
+        "blocktime": 3000,
+        "rpc": "https://ethereum-rpc.icicbchain.org/bsctest/",
+        "explorer": "https://testnet.bscscan.com/",
+        "erc20": "BEP20"
+    }
+}
