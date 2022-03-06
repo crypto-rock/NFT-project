@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: df3dbef119022d94b93bb7e075aff63f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Lucida Bright
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 849e63ecf32475f438efcaf9d07f9498, type: 3}
+  - {fileID: 12800000, guid: a1bf7cc985021fd4fa2721bfbf5595ef, type: 3}
+  - {fileID: 12800000, guid: d8420d1205d202a49bea1c952a202992, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

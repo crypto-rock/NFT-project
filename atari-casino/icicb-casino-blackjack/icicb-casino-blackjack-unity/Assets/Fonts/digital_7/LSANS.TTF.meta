@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 1e2a5795342e3764ebdc4deabb8cff48
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Lucida Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c9466e61126632546b99b5d47e1b65fb, type: 3}
+  - {fileID: 12800000, guid: 76ed75f40b9cdf14980953517d80c811, type: 3}
+  - {fileID: 12800000, guid: cd9c55f6f90bd34449799e88da566be6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
