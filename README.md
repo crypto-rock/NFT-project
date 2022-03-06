@@ -1,2 +1,2 @@
-# icicb-project
+ICICB Project
 Please visit https://icicb.com/
