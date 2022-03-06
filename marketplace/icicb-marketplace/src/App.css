@@ -1,0 +1,100 @@
+.wallet-connectBtn {
+    width: 160px;
+}
+
+.d-item{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.load-thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: opacity 400ms ease 0ms;
+}
+.tiny {
+    filter: blur(2px);
+    transition: visibility 0ms ease 400ms;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    height: 150px;
+    overflow: auto;
+}
+
+.p_list {
+    position: relative;
+}
+
+.author_list_pp img {
+    background-color: white!important;
+    width: 50px!important;
+    height: 50px!important;
+}
+
+.p_list_pp {
+    position: absolute;
+}
+
+.Bidder_list {
+    position: relative;
+    padding-top: 10px;
+}
+
+.action_btn {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    margin: 5%;
+    text-decoration: none;
+    color: #FFF;
+    background: #fd3546;/*button color*/
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 90%;
+    height: 50px;
+}
+
+.action_btn:active {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+.action_btn:disabled,
+
+.action_btn[disabled]{
+  background-color: #cccccc;
+  color: #666666;
+}
+
+
+.alert-modal {
+    text-align: center;
+    width: 350px;
+}
+
+.alert-title {
+    padding: 20px;
+    color: black!important;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+.alert-info{
+    padding: 30px;
+    background-color: rgb(166, 240, 245);
+}
+
+.onsale-button {
+    color: white!important;
+    font-size: 20px!important;
+    margin-top: 20px!important;
+    width: 80%;
+    height: 40px;
+    background-color: #fd3546!important;
+}
