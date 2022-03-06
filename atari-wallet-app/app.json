@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ATARI Wallet",
+    "slug": "atari_wallet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png", 
+    "backgroundColor" : "#000000",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "ts",
+        "tsx",
+        "scss",
+        "sass"
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.atari.wallet",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "atari-wallet-app\nexpo, react native",
+    "githubUrl": "https://github.com/galaxy-foundation/atari-wallet-app.git"
+  }
+}

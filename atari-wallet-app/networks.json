@@ -1,0 +1,40 @@
+{
+    "eth": {
+        "bridge": "0x1AbbA4d5565305Af584D3a069e78690BC816B4fB",
+        "chainId": 4,
+        "coin": "ETH",
+        "decimals": 18,
+        "confirmations": 12,
+        "blocktime": 15000,
+        "rpc": "https://rinkeby.infura.io/v3/580d6de4d2694cbdbee111d2f553dbcc",
+        "explorer": "https://rinkeby.etherscan.io/",
+        "erc20": "ERC20"
+    },
+    "bsc": {
+        "bridge": "0x097a7f06191e8E34B0A7bBf4547DbAF66b3A7f80",
+        "chainId": 97,
+        "coin": "BNB",
+        "decimals": 18,
+        "confirmations": 12,
+        "blocktime": 3000,
+        "rpc": "https://ethereum-rpc.icicbchain.org/bsctest/",
+        "explorer": "https://testnet.bscscan.com/",
+        "erc20": "BEP20"
+    },
+    "btc": {
+        "coin": "btc",
+        "decimals": 8,
+        "confirmations": 1,
+        "blocktime": 600000,
+        "rpc": "http://bitcoin-rpc.icicbchain.com",
+        "explorer": "https://blockchair.com/bitcoin"
+    },
+    "ltc": {
+        "coin": "ltc",
+        "decimals": 8,
+        "confirmations": 6,
+        "blocktime": 60000,
+        "rpc": "http://litecoin-rpc.icicbchain.com",
+        "explorer": "https://blockchair.com/litecoin"
+    }
+}
