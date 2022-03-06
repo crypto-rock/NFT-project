@@ -1,0 +1,16 @@
+{
+    "lang" : "En",
+    "chain": "ATARI CHAIN",
+    "bridge": "ATARI Bridge",
+    "description": "The safe, fast and most secure way to bring cross-chain assets to ATARI chains.",
+    "wallet.connect": "Connect",
+    "chain.atari": "ATARI network",
+    "chain.eth": "Ethereum network",
+    "chain.bsc": "Binance SmartChain",
+    "chain.trx": "Tron network",
+    "chain.ht": "HECO network",
+    
+    "token.native": "Native Token",
+
+    "end":""
+}

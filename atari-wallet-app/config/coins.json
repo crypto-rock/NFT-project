@@ -1,0 +1,82 @@
+{
+    "atri": {
+        "title": "Atari",
+        "symbol": "ATRI",
+        "chain": "evm",
+        "chains": {
+			"eth": {
+                "title": "",
+                "native": "eth",
+				"address": "0xdacD69347dE42baBfAEcD09dC88958378780FB62",
+				"decimals": 0
+			}
+		}
+    },
+    "eth": {
+        "title": "Ethereum",
+        "symbol": "ETH",
+        "chain": "evm",
+        "chains": {
+			"eth": {
+                "title": "",
+                "native": "eth",
+				"decimals": 18
+			}
+		}
+    },
+    "usdt": {
+        "title": "Tether USD",
+        "symbol": "USDT",
+        "chain": "evm",
+        "chains": {
+			"eth": {
+                "title": "ERC20",
+                "native": "eth",
+				"address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+				"decimals": 6
+			},
+            "bsc": {
+                "title": "BEP20",
+                "native": "bnb",
+				"address": "0x55d398326f99059ff775485246999027b3197955",
+				"decimals": 18
+			}
+		}
+    },
+    "btc": {
+        "title": "Bitcoin",
+        "symbol": "BTC",
+        "chain": "btc",
+        "chains": {
+			"btc": {
+                "title": "",
+                "native": "btc",
+				"decimals": 8
+			}
+		}
+    },
+    "bnb": {
+        "title": "BNB",
+        "symbol": "BNB",
+        "chain": "evm",
+        "chains": {
+			"bsc": {
+                "title": "",
+                "native": "bnb",
+				"decimals": 18
+			}
+		}
+    },
+    "ltc": {
+        "title": "LTC",
+        "symbol": "LTC",
+        "chain": "ltc",
+        "chains": {
+			"ltc": {
+                "title": "",
+                "native": "ltc",
+				"decimals": 8
+			}
+		}
+    }
+}
